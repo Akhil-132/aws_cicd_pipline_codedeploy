@@ -21,7 +21,7 @@ files:
   # Deploy all HTML files and assets to the Apache web root directory
   - source: /index.html
     destination: /var/www/html/
-  - source: /
+  - source: /aws_cicd_pipline_codedeploy
     destination: /var/www/html/
   - source: /SportsMeet
     destination: /var/www/html/
